@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/activity" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/activity/CameraActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/camera" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/camera/CameraInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/camera/preview/CameraSurfaceView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/ui" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/ui/MaskView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/util" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/util/CamParaUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/util/DisplayUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/mycamera/util/FileUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_camera_all.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_camera_all_click.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_shutter_background.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_camera.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/camera.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/btn_camera_all.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/btn_camera_all_click.png" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
