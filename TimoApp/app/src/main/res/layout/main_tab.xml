@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="56dp"
+              android:background="@drawable/main_tab_bg"
+              android:orientation="horizontal">
+
+    <!--动态-->
+    <LinearLayout
+        android:id="@+id/layout_dynamic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_dynamic"
+            style="@style/main_tab_iv"
+            android:src="@mipmap/attention_selected"/>
+
+        <TextView
+            android:id="@+id/tv_dynamic"
+            style="@style/main_tab_tv"
+            android:text="动态"
+            android:textColor="@color/blue"/>
+    </LinearLayout>
+
+    <!--发现-->
+    <LinearLayout
+        android:id="@+id/layout_discover"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_discover"
+            style="@style/main_tab_iv"
+            android:src="@mipmap/discover"/>
+
+        <TextView
+            android:id="@+id/tv_discover"
+            style="@style/main_tab_tv"
+            android:text="发现"
+            />
+    </LinearLayout>
+
+    <!--消息-->
+    <LinearLayout
+        android:id="@+id/layout_msg"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_msg"
+            style="@style/main_tab_iv"
+            android:src="@mipmap/msg"/>
+
+        <TextView
+            android:id="@+id/tv_msg"
+            style="@style/main_tab_tv"
+            android:text="消息"/>
+    </LinearLayout>
+
+    <!--我的-->
+    <LinearLayout
+        android:id="@+id/layout_my"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_my"
+            style="@style/main_tab_iv"
+            android:src="@mipmap/my"/>
+
+        <TextView
+            android:id="@+id/tv_my"
+            style="@style/main_tab_tv"
+            android:text="我的"
+            />
+    </LinearLayout>
+
+</LinearLayout>
