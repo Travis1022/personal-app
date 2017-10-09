@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#373737"
+              android:gravity="center_vertical"
+              android:padding="10dp"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_train_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_1"
+        android:hint="请输入车号"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLines="1"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="28sp"
+        android:visibility="visible"
+        android:windowSoftInputMode="stateHidden"/>
+
+    <com.zhy.view.CircleMenuLayout
+        android:id="@+id/id_menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circle_bg3"
+        android:padding="100dp">
+
+        <RelativeLayout
+            android:id="@id/id_circle_menu_item_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="94.0dip"
+                android:layout_height="94.0dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/welcome"/>
+
+            <ImageView
+                android:layout_width="96.0dip"
+                android:layout_height="96.0dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/turnplate_mask_unlogin_normal"/>
+        </RelativeLayout>
+    </com.zhy.view.CircleMenuLayout>
+
+</LinearLayout>
