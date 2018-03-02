@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="txw.advanceddemo.AsyncActivity">
+
+    <Button
+        android:id="@+id/btn_asyn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="使用AsyncTask"/>
+
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="使用Handler"/>
+
+</LinearLayout>
+
