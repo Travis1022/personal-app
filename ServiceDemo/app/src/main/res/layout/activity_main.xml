@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:padding="16dp"
-    tools:context="hzcec.com.servicedemo.MainActivity">
+    tools:context="cec.com.servicedemo.MainActivity">
 
     <Button
         android:id="@+id/btn_test"
