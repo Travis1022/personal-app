@@ -28,14 +28,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    @OnClick({R.id.btn_recycler})
+    @OnClick({R.id.btn_recycler1,R.id.btn_recycler2})
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btn_recycler:
+            //使用RecyclerView实现线性列表以及网格列表
+            case R.id.btn_recycler1:
                 Intent intent = new Intent(this, RecyclerActivity.class);
                 startActivity(intent);
                 break;
+            //使用RecyclerViews实现瀑布流
+            case R.id.btn_recycler2:
+                break;
+
+
         }
     }
 }

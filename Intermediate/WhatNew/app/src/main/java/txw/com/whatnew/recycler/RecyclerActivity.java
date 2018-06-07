@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
@@ -18,6 +18,7 @@ import butterknife.ButterKnife;
 import txw.com.whatnew.R;
 
 /**
+ * 使用RecyclerView实现ListView和GridView
  * create by txw on 2018-06-07
  */
 public class RecyclerActivity extends AppCompatActivity {
@@ -40,7 +41,23 @@ public class RecyclerActivity extends AppCompatActivity {
      * init layout
      */
     private void initView() {
-        mRvInfo.setLayoutManager(new LinearLayoutManager(this));
+//        //1.线性布局，默认垂直
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+//        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+
+//        //2.线性布局，水平方向
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+//        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+
+        //3.基本网格布局
+        GridLayoutManager layoutManager = new GridLayoutManager(this, 3);
+
+
+//        //4.交错式网格布局
+//        RecyclerView.LayoutManager layoutManager = new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
+
+        mRvInfo.setLayoutManager(layoutManager);
+
         //item增加或者删除的时候的动画
         mRvInfo.setItemAnimator(new DefaultItemAnimator());
         initData();

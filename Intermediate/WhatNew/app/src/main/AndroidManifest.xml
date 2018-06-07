@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".recycler.RecyclerActivity">
         </activity>
+        <activity android:name=".card.CardActivity">
+        </activity>
     </application>
 
 </manifest>

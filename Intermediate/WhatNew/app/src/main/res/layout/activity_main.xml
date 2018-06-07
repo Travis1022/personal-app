@@ -16,8 +16,14 @@
         android:textSize="24sp"/>
 
     <Button
-        android:id="@+id/btn_recycler"
+        android:id="@+id/btn_recycler1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="RecyclerView"/>
+        android:text="RecyclerView-1"/>
+
+    <Button
+        android:id="@+id/btn_recycler2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RecyclerView-2"/>
 </LinearLayout>

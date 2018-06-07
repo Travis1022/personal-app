@@ -29,8 +29,11 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     //recycler view
     implementation 'com.android.support:recyclerview-v7:26.1.0'
+    //card view
+    implementation 'com.android.support:cardview-v7:26.1.0'
     //butter knife
     implementation 'com.jakewharton:butterknife:8.5.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 
     testImplementation 'junit:junit:4.12'
