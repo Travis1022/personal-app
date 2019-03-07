@@ -26,4 +26,16 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="RecyclerView-2"/>
+
+    <Button
+        android:id="@+id/btn_card"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CardView"/>
+
+    <Button
+        android:id="@+id/btn_notify"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Notification"/>
 </LinearLayout>

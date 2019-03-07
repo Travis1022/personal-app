@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WhatNew</string>
+    <string name="title_activity_use_card">UseCardActivity</string>
 </resources>

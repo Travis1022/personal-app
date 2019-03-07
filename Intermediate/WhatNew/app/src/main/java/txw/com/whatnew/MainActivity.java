@@ -9,6 +9,8 @@ import android.widget.Button;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import txw.com.whatnew.card.CardActivity;
+import txw.com.whatnew.notification.NotifyActivity;
 import txw.com.whatnew.recycler.RecyclerActivity;
 
 /**
@@ -16,7 +18,7 @@ import txw.com.whatnew.recycler.RecyclerActivity;
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    @BindView(R.id.btn_recycler)
+    @BindView(R.id.btn_recycler1)
     Button mBtnRecycler;
 
     @Override
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    @OnClick({R.id.btn_recycler1,R.id.btn_recycler2})
+    @OnClick({R.id.btn_recycler1, R.id.btn_recycler2, R.id.btn_card, R.id.btn_notify})
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -39,6 +41,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             //使用RecyclerViews实现瀑布流
             case R.id.btn_recycler2:
+                break;
+            //使用CardView实现卡片
+            case R.id.btn_card:
+                startActivity(new Intent(this, CardActivity.class));
+                break;
+            //使用CardView实现卡片
+            case R.id.btn_notify:
+                startActivity(new Intent(this, NotifyActivity.class));
                 break;
 
 

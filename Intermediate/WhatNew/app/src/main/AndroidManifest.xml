@@ -20,6 +20,13 @@
         </activity>
         <activity android:name=".card.CardActivity">
         </activity>
+        <activity
+            android:name=".card.UseCardActivity"
+            android:label="@string/title_activity_use_card"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".notification.NotifyActivity">
+        </activity>
     </application>
 
 </manifest>

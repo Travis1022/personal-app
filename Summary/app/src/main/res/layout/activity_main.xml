@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="txw.com.summary.activity.JniActivity">
+
+
+    <Button
+        android:id="@+id/btn_jni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JNI调用"/>
+
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基础数据上传"/>
+
+
+    <Button
+        android:id="@+id/btn_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="照片文件上传"/>
+
+</LinearLayout>

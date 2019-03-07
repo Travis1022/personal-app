@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="txw.com.whatnew.notification.NotifyActivity">
+
+    <Button
+        android:id="@+id/btn_simple"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="普通通知"/>
+
+    <Button
+        android:id="@+id/btn_fold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="折叠式通知"/>
+
+    <Button
+        android:id="@+id/btn_pad"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="悬挂式通知"/>
+
+</LinearLayout>
